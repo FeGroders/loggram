@@ -1,6 +1,6 @@
 {
   "name": "loggram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that sends your app logs to Telegram",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/FeGroders/loggram#readme",
   "dependencies": {
     "axios": "^0.27.2"
-  }
+  },
+  "keywords": [
+    "log",
+    "telegram",
+    "nodejs",
+    "javascript"
+  ]
 }
