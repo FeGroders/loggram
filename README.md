@@ -36,7 +36,7 @@ Then, you can start implementing the Loggram.
 ## 📘 Example
 
 ```js
-const Loggram = require('./loggram');
+const Loggram = require('loggram')
 
 var loggram = new Loggram(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID);
 loggram.sendLog('Hello World!').then(res => {
@@ -44,6 +44,19 @@ loggram.sendLog('Hello World!').then(res => {
 }).catch(err => {
     console.log(err);
 });
+```
+
+## 📘 Options
+```js
+sendLog(appName, type, message){
+  //appName optional
+  //type optional ('info', 'error', 'warning', 'success')
+  //message required
+};
+
+sendLog(message){
+  //message required
+};
 ```
 
 ## 🚀 Technologies
